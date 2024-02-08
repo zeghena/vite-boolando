@@ -1,12 +1,9 @@
-<script setup>
-import HelloWorld from "./components/HelloWorld.vue";
-</script>
+<script setup></script>
 
 <template>
   <div class="header">
-    header
-    <div>left</div>
-    <div>center</div>
+    <div>Donna Uomo Bambino</div>
+    <div><img class="logo" src="../img/boolean-logo.png" alt="" /></div>
     <div>right</div>
   </div>
   <div>main</div>
