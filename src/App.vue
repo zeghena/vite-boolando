@@ -121,16 +121,18 @@ export default {
   <div class="header">
     <div class="item-header">Donna Uomo Bambino</div>
     <div class="item-header">
-      <img class="logo" src="./assets/img/boolean-logo.png" alt="" />
+      <img class="logo" src="./public/img/boolean-logo.png" alt="" />
     </div>
     <div class="item-header">right</div>
   </div>
   <!-- ### main  -->
-  <AppCard
-    v-for="product in products"
-    :img="'./img/' + product.frontImage"
-    :title="product.name + ' ciao'"
-  />
+  <div class="container">
+    <AppCard
+      v-for="product in products"
+      :img="'./img/' + product.frontImage"
+      :title="product.name + ' ciao'"
+    />
+  </div>
 
   <!-- ### footer  -->
   <div>footer</div>
