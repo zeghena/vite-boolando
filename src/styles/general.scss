@@ -23,8 +23,25 @@ div {
   width: 100px;
   left: 50%;
 }
+
 .container {
   max-width: 1200px;
-  margin: 0 auto;
   padding: 0 15px;
+}
+
+/* ### PRODUCTS */
+
+#products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  position: relative;
+  width: calc((100% / 3) - 20px);
+  min-width: 300px;
+  border: 1px dashed black;
+  margin: 10px;
+  min-height: 200px;
 }
